@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jakec/dev/gtk-ttt/src/activate_gtk_window.c" "CMakeFiles/cproject.dir/src/activate_gtk_window.c.o" "gcc" "CMakeFiles/cproject.dir/src/activate_gtk_window.c.o.d"
-  "/home/jakec/dev/gtk-ttt/src/main.c" "CMakeFiles/cproject.dir/src/main.c.o" "gcc" "CMakeFiles/cproject.dir/src/main.c.o.d"
+  "/home/jakec/dev/tiktaktoe/src/activate_gtk_window.c" "CMakeFiles/tiktaktoe.dir/src/activate_gtk_window.c.o" "gcc" "CMakeFiles/tiktaktoe.dir/src/activate_gtk_window.c.o.d"
+  "/home/jakec/dev/tiktaktoe/src/main.c" "CMakeFiles/tiktaktoe.dir/src/main.c.o" "gcc" "CMakeFiles/tiktaktoe.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

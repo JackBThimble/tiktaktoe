@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakec/dev/gtk-ttt
+CMAKE_SOURCE_DIR = /home/jakec/dev/tiktaktoe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakec/dev/gtk-ttt/cmake
+CMAKE_BINARY_DIR = /home/jakec/dev/tiktaktoe/cmake
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cproject.dir/all
+all: CMakeFiles/tiktaktoe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cproject.dir/clean
+clean: CMakeFiles/tiktaktoe.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cproject.dir
+# Target rules for target CMakeFiles/tiktaktoe.dir
 
 # All Build rule for target.
-CMakeFiles/cproject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakec/dev/gtk-ttt/cmake/CMakeFiles --progress-num=1,2,3 "Built target cproject"
-.PHONY : CMakeFiles/cproject.dir/all
+CMakeFiles/tiktaktoe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakec/dev/tiktaktoe/cmake/CMakeFiles --progress-num=1,2,3 "Built target tiktaktoe"
+.PHONY : CMakeFiles/tiktaktoe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/gtk-ttt/cmake/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cproject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/gtk-ttt/cmake/CMakeFiles 0
-.PHONY : CMakeFiles/cproject.dir/rule
+CMakeFiles/tiktaktoe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/tiktaktoe/cmake/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tiktaktoe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/tiktaktoe/cmake/CMakeFiles 0
+.PHONY : CMakeFiles/tiktaktoe.dir/rule
 
 # Convenience name for target.
-cproject: CMakeFiles/cproject.dir/rule
-.PHONY : cproject
+tiktaktoe: CMakeFiles/tiktaktoe.dir/rule
+.PHONY : tiktaktoe
 
 # clean rule for target.
-CMakeFiles/cproject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/clean
-.PHONY : CMakeFiles/cproject.dir/clean
+CMakeFiles/tiktaktoe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/clean
+.PHONY : CMakeFiles/tiktaktoe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

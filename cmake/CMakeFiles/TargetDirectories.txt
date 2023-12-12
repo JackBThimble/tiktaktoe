@@ -1,3 +1,3 @@
-/home/jakec/dev/gtk-ttt/cmake/CMakeFiles/cproject.dir
-/home/jakec/dev/gtk-ttt/cmake/CMakeFiles/edit_cache.dir
-/home/jakec/dev/gtk-ttt/cmake/CMakeFiles/rebuild_cache.dir
+/home/jakec/dev/tiktaktoe/cmake/CMakeFiles/tiktaktoe.dir
+/home/jakec/dev/tiktaktoe/cmake/CMakeFiles/edit_cache.dir
+/home/jakec/dev/tiktaktoe/cmake/CMakeFiles/rebuild_cache.dir

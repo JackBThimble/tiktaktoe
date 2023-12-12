@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakec/dev/gtk-ttt
+CMAKE_SOURCE_DIR = /home/jakec/dev/tiktaktoe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakec/dev/gtk-ttt/cmake
+CMAKE_BINARY_DIR = /home/jakec/dev/tiktaktoe/cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/gtk-ttt/cmake/CMakeFiles /home/jakec/dev/gtk-ttt/cmake//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/tiktaktoe/cmake/CMakeFiles /home/jakec/dev/tiktaktoe/cmake//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/gtk-ttt/cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakec/dev/tiktaktoe/cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cproject
+# Target rules for targets named tiktaktoe
 
 # Build rule for target.
-cproject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cproject
-.PHONY : cproject
+tiktaktoe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tiktaktoe
+.PHONY : tiktaktoe
 
 # fast build rule for target.
-cproject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/build
-.PHONY : cproject/fast
+tiktaktoe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/build
+.PHONY : tiktaktoe/fast
 
 src/activate_gtk_window.o: src/activate_gtk_window.c.o
 .PHONY : src/activate_gtk_window.o
 
 # target to build an object file
 src/activate_gtk_window.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/activate_gtk_window.c.o
 .PHONY : src/activate_gtk_window.c.o
 
 src/activate_gtk_window.i: src/activate_gtk_window.c.i
@@ -142,7 +142,7 @@ src/activate_gtk_window.i: src/activate_gtk_window.c.i
 
 # target to preprocess a source file
 src/activate_gtk_window.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/activate_gtk_window.c.i
 .PHONY : src/activate_gtk_window.c.i
 
 src/activate_gtk_window.s: src/activate_gtk_window.c.s
@@ -150,7 +150,7 @@ src/activate_gtk_window.s: src/activate_gtk_window.c.s
 
 # target to generate assembly for a file
 src/activate_gtk_window.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/activate_gtk_window.c.s
 .PHONY : src/activate_gtk_window.c.s
 
 src/main.o: src/main.c.o
@@ -158,7 +158,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -166,7 +166,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -174,7 +174,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiktaktoe.dir/build.make CMakeFiles/tiktaktoe.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cproject"
+	@echo "... tiktaktoe"
 	@echo "... src/activate_gtk_window.o"
 	@echo "... src/activate_gtk_window.i"
 	@echo "... src/activate_gtk_window.s"

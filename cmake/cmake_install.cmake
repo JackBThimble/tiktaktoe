@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakec/dev/gtk-ttt
+# Install script for directory: /home/jakec/dev/tiktaktoe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jakec/dev/gtk-ttt/cmake/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jakec/dev/tiktaktoe/cmake/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
